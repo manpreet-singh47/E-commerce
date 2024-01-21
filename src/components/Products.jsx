@@ -12,7 +12,7 @@ const Products = ({ product }) => {
     <div
       className="card"
       style={{
-        width: "25rem",
+        width: "22rem",
         height: "25rem",
         background: "linear-gradient( to bottom right , #fff , transparent)",
       }}

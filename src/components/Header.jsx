@@ -18,8 +18,8 @@ const Header = () => {
   };
   return (
     <>
-      <div className="container header">
-        <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div className=" header">
+        <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 w-full">
           <div className="col-md-3 mb-2 mb-md-0">
             <h4>E-Commerce</h4>
           </div>
