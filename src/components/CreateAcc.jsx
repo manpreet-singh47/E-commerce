@@ -45,7 +45,7 @@ const CreateAcc = () => {
                   className="form-control form-control-lg"
                 />
                 <label className="form-label" htmlFor="form1Example15">
-                  Email fullname
+                  Email
                 </label>
               </div>
               {/* Password input */}
