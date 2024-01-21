@@ -20,7 +20,7 @@ import CreateAcc from "./components/CreateAcc.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="" element={<App />}>
-      <Route path="" element={<Hero />} />
+      <Route path="/" element={<Hero />} />
       <Route path="/wishlist" element={<Wishlist />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/" element={<Hero />} />

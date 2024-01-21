@@ -21,13 +21,13 @@ const HeroCrousal = () => {
   };
 
   return (
-    <div className="HeroCrousal">
+    <div className=" container HeroCrousal">
       <Slider {...settings}>
         {images.map((image) => {
           return (
             <img
               src={image}
-              className="d-block mx-lg-auto img-fluid productDetailsImage "
+              className="  d-block mx-lg-auto img-fluid productDetailsImage "
               alt="Bootstrap Themes"
               loading="lazy"
             />

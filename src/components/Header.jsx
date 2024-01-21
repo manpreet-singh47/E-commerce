@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <div className=" header">
+      <div className="header">
         <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
           <div className="col-md-3 mb-2 mb-md-0">
             <h4>E-Commerce</h4>
