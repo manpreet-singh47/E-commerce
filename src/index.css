@@ -1,0 +1,107 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+}
+h2{
+  color: #fff;
+}
+.header {
+  background : linear-gradient( to right , #e4e7e4, #2c6cbc);
+  width: 100;
+  margin: 0%;
+}
+.header h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color : rgb(22, 167, 224)
+}
+@media (min-width: 900px){
+ .container, .container-md, .container-sm {
+    max-width: 100%;
+ }
+}
+.footerText {
+  color: #fff !important;
+}
+.hero {
+  display: flex;
+  width: 98%;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-inline : 20px;
+}
+.product-image{
+  object-fit: contain;
+  height: 50%;
+  object-position: center;
+  margin: 10px;
+  overflow: hidden;
+  width: 92%;
+}
+.product-body{
+  text-align: center;
+  
+}
+/* .productImagesContainer{
+  background : linear-gradient( to bottom right , #1e96fc , transparent);
+  border-radius: 10px;
+} */
+.productDetailsImage{
+  height: 400px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.cartContainer {
+  margin-inline: 40px;
+  margin-top: -60px;
+}
+.wishListButtons{
+  width: 150px;;
+  justify-content: right;
+  gap: 5%;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1%;
+}
+.wishListButton{
+  height: 40px;
+  
+}
+.login {
+  margin-inline: 40px;
+}
+.loginButtons {
+  justify-content: space-around;
+  display: flex;
+}
+.HeroCrousal{
+ height:400px;
+ width: 95vw;
+ background-color: transparent;
+ margin-bottom: 4%;
+}
+.HeroCrousalImage  {
+object-fit: contain;
+height: 10;
+width: 100%;
+background-color: transparent;
+border-radius: 60px;
+/* background: linear-gradient(to bottom right , #34a0a4 , #52b69a , transparent ); */
+}
+
+/* .lightTheme {
+  background-color: #fff;
+} */
+.theme{
+  height:  fit-content;
+  width: 99vw;
+  background : linear-gradient( to bottom right , #08203e , #557c93);
+  background-repeat: no-repeat;
+}
+.cartBody {
+  background: linear-gradient( to bottom right ,#145277 , #9fccfa);
+  border: none;
+}
