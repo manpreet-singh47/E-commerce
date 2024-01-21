@@ -10,16 +10,11 @@ import { IoMdSunny } from "react-icons/io";
 const Header = () => {
   const cart = useSelector((state) => state.products.cart);
   const wishlist = useSelector((state) => state.products.wishlist);
-  const [dark, setdark] = useState(false);
 
-  const changeTheme = () => {
-    // document.body.className = theme
-    setdark(!dark);
-  };
   return (
     <>
       <div className=" header">
-        <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 w-full">
+        <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
           <div className="col-md-3 mb-2 mb-md-0">
             <h4>E-Commerce</h4>
           </div>
