@@ -141,10 +141,7 @@ const Wishlist = () => {
             {wishlist.length === 0 ? null : (
               <div className="d-flex justify-content-end">
                 <Link to={"/"}>
-                  <button
-                    type="button"
-                    className="btn btn-light btn-lg me-2 m-5 "
-                  >
+                  <button type="button" className="btn btn-light btn-lg me-2 ">
                     Continue shopping
                   </button>
                 </Link>
