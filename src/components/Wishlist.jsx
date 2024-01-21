@@ -10,7 +10,8 @@ const Wishlist = () => {
     <section
       style={{
         background: "linear-gradient( to right , #08203e, #83d0cb)",
-        height: "98vh",
+        height: "fit-content",
+        minHeight: "100vh",
       }}
     >
       <div className="container h-100">
@@ -42,7 +43,7 @@ const Wishlist = () => {
             )}
             {wishlist.map((item) => {
               return (
-                <div className="card mb-4 ">
+                <div className="card mb-4 h-full ">
                   <div className="card-body p-4 ">
                     <div
                       style={{
@@ -141,7 +142,10 @@ const Wishlist = () => {
             {wishlist.length === 0 ? null : (
               <div className="d-flex justify-content-end">
                 <Link to={"/"}>
-                  <button type="button" className="btn btn-light btn-lg me-2 ">
+                  <button
+                    type="button"
+                    className="btn btn-light btn-lg me-2 mb-5 "
+                  >
                     Continue shopping
                   </button>
                 </Link>
