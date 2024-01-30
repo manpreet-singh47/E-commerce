@@ -9,7 +9,7 @@ const Wishlist = () => {
   return (
     <section
       style={{
-        background: "linear-gradient( to right , #08203e, #83d0cb)",
+        // background: "linear-gradient( to right , #08203e, #83d0cb)",
         height: "fit-content",
         minHeight: "100vh",
       }}
