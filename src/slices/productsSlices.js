@@ -9,11 +9,11 @@ const productSlice = createSlice({
     data: Data,
     totalPrice: 0,
     images: [
-      "https://cdn.dummyjson.com/product-images/1/2.jpg",
-      "https://cdn.dummyjson.com/product-images/21/2.jpg",
-      "https://cdn.dummyjson.com/product-images/18/4.jpg",
-      "https://cdn.dummyjson.com/product-images/16/3.jpg",
+      "https://cdn.dummyjson.com/product-images/24/1.jpg",
+      "https://cdn.dummyjson.com/product-images/13/1.jpg",
+      "https://cdn.dummyjson.com/product-images/7/1.jpg",
       "https://cdn.dummyjson.com/product-images/15/3.jpg",
+      "https://cdn.dummyjson.com/product-images/16/3.jpg",
     ],
   },
   reducers: {

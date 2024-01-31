@@ -18,7 +18,7 @@ const Products = ({ product }) => {
       }}
     >
       <img
-        src={product.images[3]}
+        src={product.images[0]}
         className="card-img-top product-image"
         alt="..."
       />

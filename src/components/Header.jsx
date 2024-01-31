@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { FaMoon } from "react-icons/fa6";
 import { IoMdSunny } from "react-icons/io";
+import { MdFastfood } from "react-icons/md";
 
 const Header = () => {
   const cart = useSelector((state) => state.products.cart);
@@ -16,8 +17,16 @@ const Header = () => {
       <div className="header">
         <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
           <div className="col-md-3 mb-2 mb-md-0">
-            <h4 style={{ fontWeight: "bolder" }} className="text-white">
-              E-Commerce
+            <h4
+              style={{
+                fontWeight: "bolder",
+                display: "flex",
+                alignItems: "center",
+                gap: "5px",
+              }}
+              className="text-white"
+            >
+              Foodhood <MdFastfood />
             </h4>
           </div>
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -83,10 +92,7 @@ const Header = () => {
               </button>
             </Link>
             <Link to={"/login"}>
-              <button
-                type="button"
-                className="btn btn-outline-primary me-2 text-white"
-              >
+              <button type="button" className="btn btn-success me-2 text-gray">
                 Login <MdLogin />
               </button>
             </Link>
